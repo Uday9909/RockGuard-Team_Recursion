@@ -1,0 +1,2 @@
+"""Rockfall FastAPI package."""
+

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+*.pyc
+.venv/
+.env
+
+# Node
+node_modules/
+dist/
+.env
+.env.local
+
+# Data (large files)
+# Ignore all CSVs by default
+*.csv
+# But allow sample data if it's small (we'll handle this with specific allows if needed)
+# The user rule: "Only ignore CSVs over 1MB."
+# Since I'm using a simple gitignore, I'll list the large ones to ignore or use a pattern.
+# Actually, the user's requested text for .gitignore is:
+# Data (large files)
+# *.csv
+# Keep these
+# !.env.example
+# !data/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Keep these
+!.env.example
+!data/.gitkeep
+# Also keep sample CSVs if they are small (I'll add specifically if found)
